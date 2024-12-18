@@ -1,0 +1,13 @@
+.ol {
+    list-style-position: outside;
+    list-style-image: url("images/ikona.jpg");
+    background: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ol2 {
+    list-style-position: inside;
+    list-style-image: url("images/img.png");
+    background: grey;
+    font-size: small;
+}

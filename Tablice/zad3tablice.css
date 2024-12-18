@@ -1,0 +1,9 @@
+table, td {
+   border-width: 5px;
+   border-color: cornflowerblue;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr:hover {
+    background-color: grey;
+}
