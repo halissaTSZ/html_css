@@ -1,0 +1,11 @@
+body {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
