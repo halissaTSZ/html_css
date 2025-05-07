@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kupovina - AutoLux</title>
+  <link rel="stylesheet" href="css/pocetna.css">
+</head>
+<body>
+<header class="flex space-between align-center">
+  <div class="logo flex align-center">
+    <img src="images/logo.png" alt="AutoLux Logo" class="logo-img">
+    <h1>AutoLux</h1>
+  </div>
+  <nav>
+    <ul class="nav-menu flex">
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="O nama.html">O nama</a></li>
+      <li><a href="ponuda.html">Ponuda</a></li>
+      <li><a href="galerija.html">Galerija</a></li>
+      <li><a href="kupovina.html">Kupovina</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="form-section flex center">
+  <form action="#" method="POST" class="flex column">
+    <h2>Kupovina vozila</h2>
+    <label for="ime">Ime i prezime:</label>
+    <input type="text" id="ime" name="ime" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="vozilo">Odabir vozila:</label>
+    <select id="vozilo" name="vozilo">
+      <option value="bmw">BMW M4</option>
+      <option value="audi">Audi R8</option>
+      <option value="mercedes">Mercedes AMG</option>
+    </select>
+
+    <label for="poruka">Poruka / Dodatni zahtjevi:</label>
+    <textarea id="poruka" name="poruka" rows="5"></textarea>
+
+    <button type="submit">Pošalji upit</button>
+  </form>
+</section>
+
+<footer class="flex center">
+  <p>&copy; 2025 AutoLux</p>
+</footer>
+</body>
+</html>

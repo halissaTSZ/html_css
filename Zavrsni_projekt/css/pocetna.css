@@ -1,0 +1,132 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header, footer {
+    background: #111;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo-img {
+    width: 450px;
+    height: 450px;
+    margin-right: 1rem;
+}
+
+.nav-menu {
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 60vh;
+    background: url('images/hero.jpg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    background: rgba(0,0,0,0.6);
+    padding: 2rem;
+}
+
+.about, .offer, .form-section {
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.car-box {
+    gap: 1.5rem;
+}
+
+.car img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+input, select, textarea, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1024px) {
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.o-nama-img {
+    width: 600px;
+    height: 400px;
+}
