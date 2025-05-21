@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kupovina - Autosalon LUX</title>
+  <link rel="stylesheet" href="glavni.css">
+  <link rel="stylesheet" href="drugi.css">
+</head>
+<body>
+<header>
+  <a href="kupovina.html" class="logo">
+    <img src="slike/logo.png" alt="Autosalon LUX Logo" width="100">
+  </a>
+  <h1>Autosalon LUX</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o_nama.html">O nama</a></li>
+      <li><a href="galerija.html">Galerija</a></li>
+      <li><a href="ponuda.html">Ponuda</a></li>
+      <li><a href="kupovina.html">Kupovina</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Naručite vozilo</h2>
+    <form>
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" required>
+
+      <label for="telefon">Telefon:</label>
+      <input type="text" id="telefon" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="placanje">Plaćanje:</label>
+      <select id="placanje">
+        <option value="">Gotovina – Klasično plaćanje u kešu</option>
+        <option value="">Kreditna/debitna kartica (Visa, Mastercard, American Express)</option>
+        <option value="">Bankovna transakcija (virman, uplatnica)</option>
+        <option value="">Kredit – Rate na 3-7 godina (preko banke ili leasing kuće)</option>
+      </select>
+
+      <label for="model">Odabir modela:</label>
+      <select id="model">
+        <option value="audi">Audi A6 2.0 TDI</option>
+        <option value="bmw">BMW X5 xDrive30d</option>
+        <option value="mercedes">Mercedes E 220d</option>
+        <option value="volvo">Volvo XC90 B5</option>
+        <option value="range rover">Range Rover Evoque</option>
+        <option value="audi">Audi A4 2.0 TFSI</option>
+        <option value="bmw">BMW 320i</option>
+        <option value="mercedes">Mercedes C 200</option>
+        <option value="vw">VW Tiguan 2.0 TDI</option>
+        <option value="volvo">Volvo S60 T5</option>
+      </select>
+
+      <label for="dodatno">Dodatno:</label>
+      <textarea id="dodatno" rows="4" cols="50"></textarea>
+
+      <button type="submit" class="submit-button">Pošalji upit</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 Autosalon LUX</p>
+  <p class="kontakt-info">Adresa: Bačka 38/1, Zagreb</p>
+  <p class="kontakt-info">Telefon: +385 1 2345 678</p>
+  <p class="kontakt-info">Email: info@autosalonlux.hr</p>
+</footer>
+</body>
+</html>
